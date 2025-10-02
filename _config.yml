@@ -1,10 +1,10 @@
 title: Neotoma Community Stories
 email: hoffmanick@gmail.com
-description: This website is a repository of stories contributed by members of Neotoma communities.
+description: "This website is a repository of stories contributed by members of Neotoma's community."
 baseurl: "" # leave empty for user site
 url: "https://neotomacommunity.github.io" # remove trailing slash
 
-remote_theme: "mmistakes/minimal-mistakes@4.24.0"
+theme: minima
 
 plugins:
   - jekyll-feed
