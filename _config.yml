@@ -5,6 +5,8 @@ baseurl: "" # leave empty for user site
 url: "https://neotomacommunity.github.io" # remove trailing slash
 
 theme: minima
+sass:
+  style: compressed
 
 plugins:
   - jekyll-feed
