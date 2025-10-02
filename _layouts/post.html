@@ -8,7 +8,7 @@ layout: default
   <p class="post-tags">
     Tags:
     {% for tag in page.tags %}
-      <a href="{{ '/tags/' | append: tag | relative_url }}" class="tag-link">#{{ tag }}</a>
+      <a href="#{{ tag[0] }}">{{ tag[0] }} class="tag-link">#{{ tag }}</a>
     {% endfor %}
   </p>
 {% endif %}
