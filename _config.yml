@@ -1,35 +1,19 @@
 title: Neotoma Community Stories
+email: hoffmanick@gmail.com
+description: This website is a repository of stories contributed by members of Neotoma communities.
+baseurl: "" # leave empty for user site
+url: "https://neotomacommunity.github.io" # remove trailing slash
+
 remote_theme: mmistakes/minimal-mistakes
+
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
   - jekyll-remote-theme
-email: hoffmanick@gmail.com
-description: This website is a repository of stories contributed by members of Neotoma communities.
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://neotomacommunity.github.io/" # the base hostname & protocol for your site, e.g. http://example.com
 
-# Build settings
-# theme: minima
-# plugins:
-#  - jekyll-feed
-
-# Exclude from processing.
-# The following items will not be processed, by default.
-# Any item listed under the `exclude:` key here will be automatically added to
-# the internal "default list".
-#
-# Excluded items can be processed by explicitly listing the directories or
-# their entries' file path in the `include:` list.
-#
-# exclude:
-#   - .sass-cache/
-#   - .jekyll-cache/
-#   - gemfiles/
-#   - Gemfile
-#   - Gemfile.lock
-#   - node_modules/
-#   - vendor/bundle/
-#   - vendor/cache/
-#   - vendor/gems/
-#   - vendor/ruby/
+# Optional: add exclude list if you have large folders to ignore
+exclude:
+  - node_modules
+  - vendor
+  - Gemfile
+  - Gemfile.lock
