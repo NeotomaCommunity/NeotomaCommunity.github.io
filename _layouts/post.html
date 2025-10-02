@@ -3,12 +3,3 @@ layout: default
 ---
 
 {{ content }}
-
-{% if page.tags %}
-  <p class="post-tags">
-    Tags:
-    {% for tag in page.tags %}
-      <a href="#{{ tag[0] }}">{{ tag[0] }} class="tag-link">#{{ tag }}</a>
-    {% endfor %}
-  </p>
-{% endif %}
