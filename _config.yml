@@ -4,7 +4,7 @@ description: This website is a repository of stories contributed by members of N
 baseurl: "" # leave empty for user site
 url: "https://neotomacommunity.github.io" # remove trailing slash
 
-remote_theme: mmistakes/minimal-mistakes
+remote_theme: "mmistakes/minimal-mistakes@4.24.0"
 
 plugins:
   - jekyll-feed
