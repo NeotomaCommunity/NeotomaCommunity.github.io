@@ -4,3 +4,6 @@
 
 layout: home
 ---
+
+
+<h1>Neotoma Community Stories</h1>
