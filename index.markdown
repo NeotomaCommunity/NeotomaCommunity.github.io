@@ -13,7 +13,7 @@ body {
   
 </style>
 
-<div style="display:grid;grid-template-rows: 1fr 1fr; margin: 3%;">
+<div style="display:grid;grid-template-rows: 1fr 1fr; margin: 3%; margin-bottom: 0%;">
 <div style="position: relative; border: 1px solid var(--neotoma-brown-450); background: linear-gradient(135deg, var(--neotoma-gray-150) 0%, var(--neotoma-brown-0) 100%); width: 150%; left: -25%; padding-top: 20px;">
 <h1>{{ site.title }}</h1>
 </div>
@@ -23,7 +23,7 @@ body {
 </div>
 
 <div style="display: grid; grid-template-rows: 1fr 10fr;">
-  <h2 style="">Contributed Posts</h2>
+  <h2 style="margin-top: 0px; padding-top: 0px;">Contributed Posts</h2>
 <ul>
 {% for post in site.posts %}
   <li>
