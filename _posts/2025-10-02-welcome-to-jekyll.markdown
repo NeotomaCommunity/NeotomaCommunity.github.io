@@ -2,6 +2,7 @@
 layout: post
 title:  "Welcome to Jekyll!"
 date:   2025-10-02 10:46:46 -0500
+image: "\"https://neotomacommunity.github.io/images/test_image.png\""
 categories: jekyll update
 tags: [test, example]
 ---
