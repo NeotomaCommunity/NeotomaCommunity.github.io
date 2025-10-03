@@ -5,7 +5,14 @@
 layout: default
 ---
 
+<div style="display:grid;grid-template-rows: 1fr 1fr;">
+<div style="border: 1px solid var(--neotoma-brown-450);">
 <h1>{{ site.title }}</h1>
+</div>
+<div style="border: 1px solid var(--neotoma-brown-450);">
+<p> {{ site.description }} </p>
+</div>
+</div>
 
 <ul>
 {% for post in site.posts %}
