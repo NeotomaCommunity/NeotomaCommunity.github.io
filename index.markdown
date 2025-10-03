@@ -14,7 +14,7 @@ body {
 </style>
 
 <div style="display:grid;grid-template-rows: 1fr 1fr; margin: 3%;">
-<div style="border: 1px solid var(--neotoma-brown-450); background: linear-gradient(135deg, var(--neotoma-gray-150) 0%, var(--neotoma-brown-0) 100%); width: 150%; left: -25%; padding-top: 20px;">
+<div style="position: relative; border: 1px solid var(--neotoma-brown-450); background: linear-gradient(135deg, var(--neotoma-gray-150) 0%, var(--neotoma-brown-0) 100%); width: 150%; left: -25%; padding-top: 20px;">
 <h1>{{ site.title }}</h1>
 </div>
 <div style="text-align: center; margin-left: 5%; margin-right: 5%;">
@@ -22,6 +22,8 @@ body {
 </div>
 </div>
 
+<div style="display: grid; grid-template-rows: 1fr 10fr;">
+  <h2 style="">Contributed Posts</h2>
 <ul>
 {% for post in site.posts %}
   <li>
@@ -30,3 +32,4 @@ body {
   </li>
 {% endfor %}
 </ul>
+</div>
