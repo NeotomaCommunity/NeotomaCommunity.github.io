@@ -46,6 +46,12 @@ body {
   </header>
 
   <div class="post-content e-content" itemprop="articleBody">
+  {% if page.image %}
+      <figure class=primary>
+        <img src={{ page.image }} width="300vw" alt="{{ page.alt }}" style="max-width:500px;">
+        <figcaption style="max-width:500px;">{{ page.figcap }}</figcaption>
+      </figure>
+    {% endif %}
     {{ content }}
   </div>
 
