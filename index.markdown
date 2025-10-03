@@ -14,7 +14,8 @@ body {
 </style>
 
 <div style="display:grid;grid-template-rows: 1fr 1fr; margin: 3%; margin-bottom: 0%;">
-<div style="position: relative; border: 1px solid var(--neotoma-brown-450); background: linear-gradient(135deg, var(--neotoma-gray-150) 0%, var(--neotoma-brown-0) 100%); width: 150%; left: -25%; padding-top: 20px;">
+<div style="position: relative; border: 1px solid var(--neotoma-brown-450); background: linear-gradient(135deg, var(--neotoma-gray-150) 0%, var(--neotoma-brown-0) 100%); width: 150%; left: -25%; padding-top: 20px; display:grid; grid-template-columns: 1fr 10fr;">
+  <img src="https://raw.githubusercontent.com/NeotomaCommunity/NeotomaCommunity.github.io/278cda48e3d7f51e90188bc0fa89fb4fa73f43b2/images/packrat-logo.svg"/>
 <h1>{{ site.title }}</h1>
 </div>
 <div style="text-align: center; margin-left: 5%; margin-right: 5%;">
