@@ -18,7 +18,7 @@ body {
 <h1>{{ site.title }}</h1>
 </div>
 <div style="text-align: center; margin-left: 5%; margin-right: 5%;">
-<p> {{ site.description }} </p>
+<p> This website is a repository of stories contributed by members of Neotoma's community, organized by Neotoma's <a href="https://www.neotomadb.org/outreach" target="_blank"> Outreach and Community Engagement</a> team.</p>
 </div>
 </div>
 
