@@ -14,7 +14,7 @@ layout: default
 </style>
 
 <head>
-  <title>Neotoma Community Stores</title>
+  <title>Neotoma Community Stories</title>
 </head>
 <div id="main">
 <div style="display:grid;grid-template-rows: 1fr 1fr; margin: 3%; margin-bottom: 0%;">
