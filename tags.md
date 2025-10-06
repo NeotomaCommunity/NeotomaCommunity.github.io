@@ -3,6 +3,16 @@ layout: default
 title: Tags
 ---
 
+<style>
+
+  #main {
+    margin-left: 10%;
+    margin-right: 10%;
+  }
+  
+</style>
+
+<div id="main">
 <h1>Tags</h1>
 
 <ul>
@@ -21,3 +31,4 @@ title: Tags
     {% endfor %}
   </ul>
 {% endfor %}
+</div>
