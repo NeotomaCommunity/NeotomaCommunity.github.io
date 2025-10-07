@@ -12,6 +12,7 @@ h1 {
  #main {
   margin-left: 10%;
   margin-right: 10%;
+  border-bottom: 1px solid var(--neotoma-brown-200);
 }
   </style>
 
@@ -45,6 +46,11 @@ h1 {
         {% endfor %}
       </div>
       {%- endif %}
+      <span>
+        {% for tag in site.tags %}
+     {{ tag[0] }}
+      {% endfor %}
+        </span>
     </div>
   </header>
 
@@ -69,4 +75,13 @@ h1 {
 
   <a class="u-url" href="{{ page.url | relative_url }}" hidden></a>
 </article>
+</div>
+
+<div style="display:grid;grid-template-columns:1fr 1fr;">
+<div id="return">
+  <p>Return to Neotoma Community Stories <a href="https://neotomacommunity.github.io/">main page.</a></p>
+</div>
+  <div id="tags">
+    <p> Find stories by <a href="https://neotomacommunity.github.io/tags">tags.</a></p>
+  </div>
 </div>
