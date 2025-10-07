@@ -8,6 +8,7 @@ title: Tags
   #main {
     margin-left: 10%;
     margin-right: 10%;
+    border-bottom: 1px solid var(--neotoma-brown-200);
   }
   
 </style>
@@ -31,4 +32,10 @@ title: Tags
     {% endfor %}
   </ul>
 {% endfor %}
+</div>
+
+<div style="display:grid;grid-template-columns:2fr 1fr; margin-left:10%;margin-right:10%;">
+<div id="return">
+  <p>Return to Neotoma Community Stories <a href="https://neotomacommunity.github.io/">main page.</a></p>
+</div>
 </div>
